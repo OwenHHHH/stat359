@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 
 # Load embeddings and mappings
-with open('word2vec_embeddings.pkl', 'rb') as f:
+with open('instructor/Assignment_2/word2vec_embeddings.pkl', 'rb') as f:
     data = pickle.load(f)
 embeddings = data['embeddings']
 word2idx = data['word2idx']
